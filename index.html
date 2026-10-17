@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizki Angga Pratama | Cybersecurity Analyst & Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN & Config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: "#080B12",
+                        surface: "#101622",
+                        elevated: "#151E2D",
+                        primary: "#38BDF8", // Electric cyan
+                        secondary: "#818CF8", // Restrained violet
+                        textPrimary: "#F1F5F9",
+                        textSecondary: "#94A3B8",
+                        border: "#263244",
+                    },
+                    fontFamily: {
+                        sans: ["Inter", "sans-serif"],
+                        mono: ["monospace"],
+                    },
+                }
+            }
+        }
+    </script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            background-color: #080B12;
+            color: #F1F5F9;
+        }
+        ::selection {
+            background-color: rgba(56, 189, 248, 0.3);
+            color: #38BDF8;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
+        <div class="container mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+            <a href="#" class="font-mono text-sm font-bold tracking-tight text-textPrimary hover:text-primary transition-colors">
+                RIZKI ANGGA PRATAMA
+            </a>
+            <nav class="hidden md:flex gap-6 text-sm font-medium text-textSecondary">
+                <a href="#about" class="hover:text-primary transition-colors">About</a>
+                <a href="#projects" class="hover:text-primary transition-colors">Projects</a>
+                <a href="#experience" class="hover:text-primary transition-colors">Experience</a>
+            </nav>
+            <a href="mailto:email@anda.com" class="hidden md:inline-flex h-9 items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-background transition-colors hover:bg-primary/90">
+                Let's Talk
+            </a>
+        </div>
+    </header>
+
+    <main class="min-h-screen">
+        <!-- Hero Section -->
+        <section id="about" class="container mx-auto max-w-6xl px-6 py-12 md:py-24">
+            <div class="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center mb-24">
+                <div class="space-y-6">
+                    <p class="font-mono text-xs font-semibold tracking-widest text-primary uppercase">
+                        Cybersecurity · Engineering · AI
+                    </p>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter">
+                        Securing Digital Environments.<br />
+                        <span class="text-textSecondary">Building Intelligent Solutions.</span>
+                    </h1>
+                    <p class="text-lg text-textSecondary max-w-lg leading-relaxed">
+                        I'm Rizki Angga Pratama, a technology professional working across SOC operations, detection engineering, web development, and applied AI. I turn technical challenges into practical tools, reliable applications, and actionable security insights.
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="#projects" class="inline-flex h-11 items-center justify-center rounded-md bg-primary px-8 font-medium text-background hover:bg-primary/90 transition-colors">
+                            Explore My Work
+                        </a>
+                        <a href="https://www.linkedin.com/in/rizki-angga-pratama-a39b511b5/" target="_blank" class="inline-flex h-11 items-center justify-center rounded-md border border-border bg-transparent px-8 font-medium text-textPrimary hover:bg-surface transition-colors">
+                            Let's Connect
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Technical Visual Composition -->
+                <div class="relative aspect-square md:aspect-[4/3] w-full rounded-lg border border-border bg-surface overflow-hidden shadow-2xl">
+                    <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+                    <div class="absolute top-4 left-4 flex gap-2">
+                        <div class="h-3 w-3 rounded-full bg-border"></div>
+                        <div class="h-3 w-3 rounded-full bg-border"></div>
+                        <div class="h-3 w-3 rounded-full bg-border"></div>
+                    </div>
+                    <div class="absolute bottom-6 left-6 right-6 font-mono text-xs text-textSecondary space-y-2">
+                        <p class="text-primary">&gt; SYSTEM_STATUS: SECURE</p>
+                        <p>&gt; INITIATING_THREAT_HUNT... [OK]</p>
+                        <p>&gt; COMPILING_UI_COMPONENTS... [OK]</p>
+                        <p class="animate-pulse">&gt; _</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expertise Overview -->
+            <div class="space-y-12">
+                <h2 class="text-2xl font-bold tracking-tight border-b border-border pb-4">Core Capabilities</h2>
+                <div class="grid gap-6 md:grid-cols-3">
+                    <div class="rounded-xl border border-border bg-surface p-6 hover:border-primary/50 transition-colors">
+                        <i data-lucide="shield" class="h-8 w-8 text-primary mb-4"></i>
+                        <h3 class="text-lg font-semibold mb-2">Security Operations</h3>
+                        <ul class="text-sm text-textSecondary space-y-2">
+                            <li>Alert triage & incident investigation</li>
+                            <li>IOC enrichment & threat intelligence</li>
+                            <li>Detection engineering (Elastic Security)</li>
+                            <li>MITRE ATT&CK mapping</li>
+                        </ul>
+                    </div>
+                    <div class="rounded-xl border border-border bg-surface p-6 hover:border-primary/50 transition-colors">
+                        <i data-lucide="code" class="h-8 w-8 text-primary mb-4"></i>
+                        <h3 class="text-lg font-semibold mb-2">Software Engineering</h3>
+                        <ul class="text-sm text-textSecondary space-y-2">
+                            <li>Python-based security tooling</li>
+                            <li>Modern web application development</li>
+                            <li>REST API integrations</li>
+                            <li>Maintainable frontend architecture</li>
+                        </ul>
+                    </div>
+                    <div class="rounded-xl border border-border bg-surface p-6 hover:border-primary/50 transition-colors">
+                        <i data-lucide="brain-circuit" class="h-8 w-8 text-primary mb-4"></i>
+                        <h3 class="text-lg font-semibold mb-2">AI & Machine Learning</h3>
+                        <ul class="text-sm text-textSecondary space-y-2">
+                            <li>Applied ML for threat detection</li>
+                            <li>Intelligent workflow automation</li>
+                            <li>AI-assisted engineering</li>
+                            <li>Data analysis & visualization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="border-t border-border bg-surface/50">
+            <div class="container mx-auto max-w-6xl px-6 py-12 md:py-20">
+                <div class="mb-12">
+                    <h2 class="text-4xl font-bold tracking-tight mb-4">Selected Work</h2>
+                    <p class="text-lg text-textSecondary max-w-2xl">
+                        Practical tools, security implementations, and software engineering projects grounded in real requirements.
+                    </p>
+                </div>
+
+                <!-- Filters -->
+                <div id="filter-container" class="flex flex-wrap gap-2 mb-12">
+                    <!-- Buttons generated by JS -->
+                </div>
+
+                <!-- Project Grid -->
+                <div id="projects-grid" class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- Cards generated by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-border bg-surface py-8 text-center text-sm text-textSecondary">
+        <p>© <span id="year"></span> Rizki Angga Pratama. Securing Digital Environments.</p>
+    </footer>
+
+    <!-- JavaScript for Functionality -->
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Project Data
+        const projects = [
+            {
+                id: "soc-toolkit",
+                title: "SOC Analyst Toolkit",
+                category: "Cybersecurity",
+                description: "An investigation dashboard designed to support security analysts during incident triage, IOC analysis, and reporting.",
+                demoUrl: "https://soc-toolkit.streamlit.app/",
+            },
+            {
+                id: "elastic-detection",
+                title: "Elastic Detection Engineering",
+                category: "Detection Engineering",
+                description: "Custom detection rules, anomaly baselines, and alert suppression mappings for Elastic Security.",
+                demoUrl: "#",
+            },
+            {
+                id: "web-dev-dashboard",
+                title: "Threat Triage Dashboard UI",
+                category: "Web Development",
+                description: "Interactive HTML/Tailwind interface for threat triage log parsing and data visualization.",
+                demoUrl: "#",
+            }
+        ];
+
+        const categories = ["All", "Cybersecurity", "Detection Engineering", "Web Development", "Security Automation", "Applied AI"];
+        let activeFilter = "All";
+
+        const filterContainer = document.getElementById('filter-container');
+        const projectsGrid = document.getElementById('projects-grid');
+
+        // Render Filter Buttons
+        function renderFilters() {
+            filterContainer.innerHTML = '';
+            categories.forEach(category => {
+                const btn = document.createElement('button');
+                btn.textContent = category;
+                
+                if (activeFilter === category) {
+                    btn.className = "px-4 py-2 rounded-full text-sm font-medium transition-colors bg-primary text-background";
+                } else {
+                    btn.className = "px-4 py-2 rounded-full text-sm font-medium transition-colors bg-surface border border-border text-textSecondary hover:text-textPrimary cursor-pointer";
+                }
+                
+                btn.onclick = () => {
+                    activeFilter = category;
+                    renderFilters();
+                    renderProjects();
+                };
+                
+                filterContainer.appendChild(btn);
+            });
+        }
+
+        // Render Project Cards
+        function renderProjects() {
+            projectsGrid.innerHTML = '';
+            const filtered = activeFilter === "All" 
+                ? projects 
+                : projects.filter(p => p.category === activeFilter);
+
+            if (filtered.length === 0) {
+                projectsGrid.innerHTML = `
+                    <div class="col-span-full py-12 text-center border border-dashed border-border rounded-xl">
+                        <p class="text-textSecondary">No verified projects currently published in this category.</p>
+                    </div>`;
+                return;
+            }
+
+            filtered.forEach(project => {
+                const card = document.createElement('div');
+                card.className = "group flex flex-col rounded-xl border border-border bg-background overflow-hidden hover:border-primary/50 transition-colors";
+                card.innerHTML = `
+                    <div class="aspect-video w-full bg-elevated border-b border-border flex items-center justify-center">
+                        <span class="text-sm font-mono text-textSecondary">[IMAGE_PLACEHOLDER]</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="mb-4">
+                            <span class="text-xs font-mono text-primary mb-2 block">${project.category}</span>
+                            <h3 class="text-xl font-bold">${project.title}</h3>
+                        </div>
+                        <p class="text-sm text-textSecondary mb-6 flex-grow">${project.description}</p>
+                        <a href="${project.demoUrl}" target="_blank" class="inline-flex items-center text-sm font-medium text-primary hover:text-primary/80">
+                            View Project <i data-lucide="arrow-up-right" class="ml-1 h-4 w-4"></i>
+                        </a>
+                    </div>
+                `;
+                projectsGrid.appendChild(card);
+            });
+            
+            // Re-initialize icons for newly added DOM elements
+            lucide.createIcons();
+        }
+
+        // Initialize Page
+        renderFilters();
+        renderProjects();
+        lucide.createIcons();
+    </script>
+</body>
+</html>
