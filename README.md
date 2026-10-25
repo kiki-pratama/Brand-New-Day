@@ -14,24 +14,11 @@ Repositori ini adalah perpustakaan teknis dan cetak biru arsitektural yang dided
 ## 👨‍💻 About the Author
 
 **Rizki Angga Pratama**  
-*L2 SOC Analyst & Security Engineer*  
+*L2 SOC Analyst / IT Security Engineer*  
 
-Saya adalah praktisi keamanan siber yang berfokus pada *Detection Engineering*, *Incident Response Automation* (SOAR), dan *Malware Triage*. Repositori ini merupakan bentuk dedikasi saya untuk membagikan taktik operasional, metodologi *Threat Hunting*, dan inovasi AI di ruang SOC kepada komunitas *Cybersecurity* Indonesia dan global.
+Praktisi keamanan siber yang berfokus pada *Detection Engineering*, *Incident Response Automation* (SOAR), dan *Malware Triage*. Repository ini merupakan bentuk dedikasi saya untuk membagikan taktik operasional, metodologi *Threat Hunting*, dan inovasi AI di ruang SOC kepada komunitas *Cybersecurity* Indonesia dan global.
 
 ---
-
-## 📚 Daftar Koleksi E-Book
-
-Koleksi ini terdiri dari **2 Master E-Book (Enterprise Edition - 50 Halaman)** yang membahas ekosistem pertahanan secara *end-to-end*, serta **10 E-Book Taktis** yang berfokus pada spesialisasi kasus tertentu.
-
-### 🌟 The Master E-Books (50-Pages Enterprise Edition)
-
-Dua buku raksasa ini adalah fondasi utama repositori ini, memberikan panduan komprehensif dari hulu ke hilir:
-
-1. 📘 **SOC Architecture & Engineering: Dari Analisis Log Hingga Respons Otomatis Terintegrasi**  
-   > *Master playbook* yang merangkai visibilitas SIEM, arsitektur *Cloud IR*, rekayasa deteksi (KQL/EQL), hingga eksekusi *containment* seketika menggunakan orkestrasi SOAR. Dilengkapi studi kasus forensik ancaman internal (*Insider Threat*).
-2. 📕 **Practical Malware Analysis & Reverse Engineering for SOC**  
-   > Panduan definitif untuk membongkar "kotak hitam" <em>malware</em>. Mengupas cara membangun laboratorium isolasi (*Air-Gapped Sandbox*), analisis statis/dinamis, *Network Beaconing*, hingga dekompilasi *Assembly x86* menggunakan Ghidra untuk diekstrak menjadi YARA *Rules*.
 
 ### 🎯 The Tactical Playbooks (E-Book Spesifik)
 
