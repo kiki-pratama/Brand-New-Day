@@ -14,7 +14,7 @@ Repositori ini adalah perpustakaan teknis dan blue print arsitektur yang saya de
 ## 👨‍💻 About the Author
 
 **Rizki Angga Pratama**  
-*L2 Security Operation Center Analyst *  
+*L2 Security Operation Center Analyst*  
 
 Praktisi keamanan siber yang berfokus pada *Detection Engineering*, *Incident Response Automation* (SOAR), dan *Malware Triage*. Repository ini merupakan bentuk dedikasi saya untuk membagikan taktik operasional, metodologi *Threat Hunting*, dan inovasi AI di ruang SOC kepada komunitas *Cybersecurity* Indonesia dan global.
 
