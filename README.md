@@ -1,11 +1,11 @@
-# 🛡️ The Ultimate SecOps & Threat Hunting Library
+# 🛡️ Ultimate SecOps & Threat Hunting Library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Author](https://img.shields.io/badge/Author-Rizki%20Angga%20Pratama-10b981.svg)]()
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-success.svg)]()
 [![SOC Level](https://img.shields.io/badge/Tier-L2%20%2F%20L3%20SOC-ec4899.svg)]()
 
-Selamat datang di repositori **Koleksi Lengkap E-Book Cybersecurity & Security Operations Center (SOC)**. 
+Selamat datang di repository **Koleksi E-Book Cybersecurity & Security Operations Center (SOC)**. 
 
 Repositori ini adalah perpustakaan teknis dan cetak biru arsitektural yang didedikasikan untuk mentransformasi operasional keamanan siber—bergeser dari pemantauan log reaktif (L1) menuju rekayasa deteksi proaktif, otomatisasi respons cerdas, pembedahan *malware*, hingga implementasi agen kecerdasan buatan (L2/L3).
 
@@ -24,16 +24,16 @@ Praktisi keamanan siber yang berfokus pada *Detection Engineering*, *Incident Re
 
 Sepuluh panduan taktis ini dirancang untuk menyelesaikan tantangan spesifik di ruang operasi keamanan:
 
-3. 📗 **The Elastic Security Masterclass:** *Advanced KQL, EQL & Log Hunting.*
-4. 📙 **The Detection Engineering Blueprint:** *Logic Design, Suppression Windows, & FP Reduction.*
-5. 📓 **The Essential SOAR Playbook:** *Practical Use Cases & API Automation for Modern Security Teams.*
-6. 🔬 **Advanced Threat Detection & Machine Learning in SIEM:** *Building Anomaly Baselines.*
-7. 🤖 **AI-Driven SOC:** *Prompt Engineering, RAG & LoRA for Automated Incident Triage.*
-8. ☁️ **Incident Response Playbook for Cloud Environments:** *AWS CloudTrail & Azure AD Triage.*
-9. 🧱 **Enterprise Perimeter Defense Playbook:** *Ingress/Egress Monitoring & External Dynamic Lists.*
-10. ⚔️ **Purple Teaming & Advanced Detection Engineering:** *Validasi Alert dengan Atomic Red Team.*
-11. 🛠️ **SecOps Tooling:** *Building Custom Triage Interfaces (JavaScript/RegEx).*
-12. 📊 **Building Interactive SecOps Dashboards:** *Visualisasi Metrik & Ergonomi Kognitif (HTML/Tailwind).*
+1. 📗 **The Elastic Security Masterclass:** *Advanced KQL, EQL & Log Hunting.*
+2. 📙 **The Detection Engineering Blueprint:** *Logic Design, Suppression Windows, & FP Reduction.*
+3. 📓 **The Essential SOAR Playbook:** *Practical Use Cases & API Automation for Modern Security Teams.*
+4. 🔬 **Advanced Threat Detection & Machine Learning in SIEM:** *Building Anomaly Baselines.*
+5. 🤖 **AI-Driven SOC:** *Prompt Engineering, RAG & LoRA for Automated Incident Triage.*
+6. ☁️ **Incident Response Playbook for Cloud Environments:** *AWS CloudTrail & Azure AD Triage.*
+7. 🧱 **Enterprise Perimeter Defense Playbook:** *Ingress/Egress Monitoring & External Dynamic Lists.*
+8. ⚔️ **Purple Teaming & Advanced Detection Engineering:** *Validasi Alert dengan Atomic Red Team.*
+9. 🛠️ **SecOps Tooling:** *Building Custom Triage Interfaces (JavaScript/RegEx).*
+10. 📊 **Building Interactive SecOps Dashboards:** *Visualisasi Metrik & Ergonomi Kognitif (HTML/Tailwind).*
 
 ---
 
@@ -79,8 +79,7 @@ Pemeliharaan pertahanan siber adalah usaha kolektif. Jika Anda menemukan teknik 
 
 Mari terhubung dan berdiskusi tentang rekayasa deteksi, *malware*, dan operasi keamanan siber:
 
-* 💼 **LinkedIn:** [Rizki Angga Pratama](https://www.linkedin.com/in/username-anda)
-* 🐦 **Twitter / X:** [@username_anda](https://twitter.com/username-anda)
+* 💼 **LinkedIn:** [Rizki Angga Pratama] (https://www.linkedin.com/in/rizki-angga-pratama-a39b511b5/)
 
 ---
 
