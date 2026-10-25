@@ -1,13 +1,13 @@
-# 🛡️ Ultimate SecOps & Threat Hunting Library
+# 🛡️ Threat Hunting Library
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Author](https://img.shields.io/badge/Author-Rizki%20Angga%20Pratama-10b981.svg)]()
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-success.svg)]()
 [![SOC Level](https://img.shields.io/badge/Tier-L2%20%2F%20L3%20SOC-ec4899.svg)]()
 
-Selamat datang di repository **Koleksi E-Book Cybersecurity & Security Operations Center (SOC)**. 
+Welcome to repository **Koleksi E-Book Cybersecurity & Security Operations Center (SOC)**. 
 
-Repositori ini adalah perpustakaan teknis dan cetak biru arsitektural yang didedikasikan untuk mentransformasi operasional keamanan siber—bergeser dari pemantauan log reaktif (L1) menuju rekayasa deteksi proaktif, otomatisasi respons cerdas, pembedahan *malware*, hingga implementasi agen kecerdasan buatan (L2/L3).
+Repositori ini adalah perpustakaan teknis dan blue print arsitektur yang saya dedikasikan untuk mentransformasi operasional keamanan siber—bergeser dari pemantauan log reaktif (L1) menuju rekayasa deteksi proaktif, otomatisasi respons cerdas, pembedahan *malware*, hingga implementasi agen kecerdasan buatan (L2 & L3).
 
 ---
 
@@ -20,7 +20,7 @@ Praktisi keamanan siber yang berfokus pada *Detection Engineering*, *Incident Re
 
 ---
 
-### 🎯 The Tactical Playbooks (E-Book Spesifik)
+### 🎯 The Tactical Playbooks 
 
 Sepuluh panduan taktis ini dirancang untuk menyelesaikan tantangan spesifik di ruang operasi keamanan:
 
@@ -79,7 +79,7 @@ Pemeliharaan pertahanan siber adalah usaha kolektif. Jika Anda menemukan teknik 
 
 Mari terhubung dan berdiskusi tentang rekayasa deteksi, *malware*, dan operasi keamanan siber:
 
-* 💼 **LinkedIn:** [Rizki Angga Pratama] (https://www.linkedin.com/in/rizki-angga-pratama-a39b511b5/)
+* 💼 **LinkedIn:** (https://www.linkedin.com/in/rizki-angga-pratama-a39b511b5/)
 
 ---
 
