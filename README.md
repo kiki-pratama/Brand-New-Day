@@ -7,7 +7,7 @@
 
 Welcome to repository **Koleksi E-Book Cybersecurity & Security Operations Center (SOC)**. 
 
-Repositori ini adalah perpustakaan teknis dan blue print arsitektur yang saya dedikasikan untuk mentransformasi operasional keamanan siber—bergeser dari pemantauan log reaktif (L1) menuju rekayasa deteksi proaktif, otomatisasi respons cerdas, pembedahan *malware*, hingga implementasi agen kecerdasan buatan (L2 & L3).
+Repository ini adalah perpustakaan teknis dan blue print arsitektur yang saya dedikasikan untuk mentransformasi operasional keamanan siber bergeser dari pemantauan log reaktif (L1) menuju rekayasa deteksi proaktif, otomatisasi respons cerdas, pembedahan *malware*, hingga implementasi agen kecerdasan buatan (L2 & L3).
 
 ---
 
@@ -37,7 +37,7 @@ Sepuluh panduan taktis ini dirancang untuk menyelesaikan tantangan spesifik di r
 
 ---
 
-## 🛠️ Tech Stack & Konsep yang Dibahas
+## 🛠️ Tech Stack
 
 Karya dalam repositori ini bukan sekadar teori, melainkan diimplementasikan menggunakan tumpukan teknologi standar industri (*Enterprise Tech Stack*):
 
